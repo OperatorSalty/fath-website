@@ -4,11 +4,7 @@ body {
     margin: 0px;
     background-color: orange;
     direction: ltr;
-    background-image: url('fathalla-logo.png');
-    background-repeat: no-repeat;
-    background-size: 25%;
-    background-position: right -10px top 40px;
-    
+
 }
 
 .title {
@@ -47,15 +43,14 @@ body {
 
 form {
     
-    margin-left: 600px;
+    margin: auto;
+    width: 50%;
     margin-top: 150px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    max-width: 700px;
-    width: 100%;
-    margin-right: 150px;
+
 }
 
 label {
@@ -95,7 +90,7 @@ input[type="submit"] {
     cursor: pointer;
     transition: background-color 0.3s;
     width: 150px;
-    margin-left: 260px;
+    margin-left: 390px;
 }
 
 input[type="submit"]:hover {
